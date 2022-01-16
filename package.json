@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/vision": "^6.1.0",
+    "dotenv": "^11.0.0",
+    "hapi-plugin-pg": "^1.1.2",
+    "hapi-postgres-connection": "^7.0.0",
+    "hapi-swagger": "^14.2.4",
+    "inert": "^2.0.0",
+    "joi": "^17.5.0",
+    "pg": "^8.7.1",
+    "vision": "^5.4.4",
+    "vison": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
