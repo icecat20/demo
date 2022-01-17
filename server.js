@@ -1,7 +1,6 @@
 const hapi = require("@hapi/hapi");
 const HapiPostgresConnection = require("hapi-postgres-connection");
 const pg = require("pg");
-const Routes = require("./route/route");
 const Inert = require("@hapi/inert");
 const Vision = require("@hapi/vision");
 const HapiSwagger = require("hapi-swagger");
